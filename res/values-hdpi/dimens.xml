@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Main Page -->
+    <dimen name="mainbtn_height">200dp</dimen>
+    <dimen name="main_lay_topmargin">60dp</dimen>
+    <dimen name="main_lay_padding">18dp</dimen>
+    <dimen name="main_btn_topmargin">40dp</dimen>
+
+    <!-- PhotoChooser -->
+    <dimen name="blureditor_brush_width">25dp</dimen>
+    <dimen name="blureditor_bottom_height">55dp</dimen>
+    <dimen name="blureditor_top_height">70dp</dimen>
+
+    <!-- Thumb Page -->
+    <dimen name="hse_image_size">60dp</dimen>
+    <dimen name="effect_applybtn_height">60dp</dimen>
+    <dimen name="effect_thumb_padding">4dp</dimen>
+    <dimen name="effect_thumb_paddingleft">3dp</dimen>
+    <dimen name="effect_header_txt_size">20sp</dimen>
+    <dimen name="effect_apply_marginbottom">14dp</dimen>
+     <dimen name="seekbar_width">190dp</dimen>
+<!-- startmain.xml -->
+
+<dimen name="TopView_height">65dp</dimen>
+<dimen name="Startbtn_width">200dp</dimen>
+<dimen name="Startbtn_height">100dp</dimen>
+<!--camera gallery button  -->
+
+<dimen name="linearlayout_height">181dp</dimen>
+<dimen name="Border_btn_width">248dp</dimen>
+<dimen name="camera_btn_width">250dp</dimen>
+<dimen name="camera_btn_height">90dp</dimen>
+
+<dimen name="gallery_btn_width">250dp</dimen>
+<dimen name="gallery_btn_height">90dp</dimen>
+
+ <!-- gridAdapter -->
+     <dimen name="grid_width">200dp</dimen>
+    <dimen name="grid_height">200dp</dimen>
+</resources>

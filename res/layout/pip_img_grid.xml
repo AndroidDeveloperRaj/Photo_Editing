@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg_3"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".PIP_photo_Activity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/effect_top_bg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/close"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/back_btn_selector" />
+
+        
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/PipGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:horizontalSpacing="5dp"
+        android:numColumns="@integer/number_of_columns"
+        android:verticalSpacing="5dp"
+        tools:listitem="@layout/pip_img_raw" >
+    </GridView>
+
+</LinearLayout>
